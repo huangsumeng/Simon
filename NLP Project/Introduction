@@ -1,1 +1,8 @@
+#This NLP project targets at analyzing the similarities between two groups of sentences (which can be seen in test.csv). 
 
+#Firstly I utilized NLTP to tokenize the sentence, I also suggest using spacy to help tokenize.
+
+#Secondly by transforming the sentence into vectors through Word2vec, I am able to generate many features (various distances) based on the vectors.
+#Fuzzywuzzy was also very useful in providing significant feature and I believe including sentimental analysis will lead to a better result
+
+#Lastly I built XGboost Model based on these features. By applying cross validation and parameter tuning. The model achieve a result of accuracy as 84%
