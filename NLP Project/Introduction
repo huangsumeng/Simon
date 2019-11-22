@@ -5,4 +5,4 @@
 #Secondly by transforming the sentence into vectors through Word2vec, I am able to generate many features (various distances) based on the vectors.
 #Fuzzywuzzy was also very useful in providing significant feature and I believe including sentimental analysis will lead to a better result
 
-#Lastly I built XGboost Model based on these features. By applying cross validation and parameter tuning. The model achieve a result of accuracy as 84%
+#Lastly I built XGboost Model based on these features. By applying cross validation and parameter tuning. The model achieved a result of accuracy as 84%
